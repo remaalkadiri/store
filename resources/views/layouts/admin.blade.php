@@ -18,8 +18,8 @@
     <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css"
           rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin//plugins/animate/animate.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{--asset('assets/admin/'.getFolder().'/vendors.css')--}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/plugins/animate/animate.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/vendors.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/weather-icons/climacons.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/fonts/meteocons/style.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/charts/morris.css')}}">
@@ -30,21 +30,21 @@
     <link rel="stylesheet" type="text/css"
           href="{{asset('assets/admin/vendors/css/forms/toggle/bootstrap-switch.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/forms/toggle/switchery.min.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{--asset('assets/admin/'.getFolder().'/core/menu/menu-types/vertical-menu.css')--}}">
-    <link rel="stylesheet" type="text/css" href="{{--asset('assets/admin/'.getFolder().'/pages/chat-application.css')--}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/core/menu/menu-types/vertical-menu.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/pages/chat-application.css')}}">
 
     <!-- END VENDOR CSS-->
     <!-- BEGIN MODERN CSS-->
-    <link rel="stylesheet" type="text/css" href="{{--asset('assets/admin/'.getFolder().'/app.css')--}}">
-    <link rel="stylesheet" type="text/css" href="{{--asset('assets/admin/'.getFolder().'/custom-rtl.css')--}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/app.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/custom-rtl.css')}}">
     <!-- END MODERN CSS-->
     <!-- BEGIN Page Level CSS-->
     <link rel="stylesheet" type="text/css"
-          href="{{--asset('assets/admin/'.getFolder().'/core/menu/menu-types/vertical-menu.css')--}}">
-    <link rel="stylesheet" type="text/css" href="{{--asset('assets/admin/'.getFolder().'/core/colors/palette-gradient.css')--}}">
+          href="{{asset('assets/admin/'.getFolder().'/core/menu/menu-types/vertical-menu.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/core/colors/palette-gradient.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/fonts/simple-line-icons/style.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{--asset('assets/admin/'.getFolder().'/core/colors/palette-gradient.css')--}}">
-    <link rel="stylesheet" type="text/css" href="{{--asset('assets/admin/'.getFolder().'/pages/timeline.css')--}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/core/colors/palette-gradient.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/pages/timeline.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/cryptocoins/cryptocoins.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/extensions/datedropper.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/extensions/timedropper.min.css')}}">

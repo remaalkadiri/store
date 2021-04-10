@@ -40,7 +40,7 @@
             </li>
 
 
-            {{--  <li class="nav-item"><a href=""><i class="la la-group"></i>
+            <li class="nav-item"><a href=""><i class="la la-group"></i>
                       <span class="menu-title" data-i18n="nav.dash.main">الاقسام الفرعية   </span>
                       <span
                           class="badge badge badge-danger badge-pill float-right mr-2">{{--\App\Models\Category::child() -> count()--}}</span>
@@ -53,8 +53,8 @@
                               قسم فرعي جديد </a>
                       </li>
                   </ul>
-              </li>
-  --}}
+           </li>
+ 
            @can('brands')
             <li class="nav-item"><a href=""><i class="la la-group"></i>
                     <span class="menu-title" data-i18n="nav.dash.main"> الماركات التجارية  </span>
