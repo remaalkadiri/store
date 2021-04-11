@@ -50,6 +50,7 @@ class SettingsController extends Controller
 
             DB::commit();
             return redirect()->back()->with(['success' => 'تم التحديث بنجاح']);
+        
         } catch (\Exception $ex) {
             return redirect()->back()->with(['error' => 'هناك خطا ما يرجي المحاولة فيما بعد']);
             DB::rollback();
