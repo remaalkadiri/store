@@ -33,6 +33,7 @@ class LoginController extends Controller
     {
 
         $gaurd = $this->getGaurd();
+        
         $gaurd->logout();
 
         return redirect()->route('admin.login');
@@ -40,6 +41,6 @@ class LoginController extends Controller
 
     private function getGaurd()
     {
-        return auth('admin');
+        return auth('admin'); 
     }
 }
