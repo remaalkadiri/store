@@ -55,7 +55,7 @@
                   </ul>
            </li>
  
-           @can('brands')
+           <!-- @can('brands') -->
             <li class="nav-item"><a href=""><i class="la la-group"></i>
                     <span class="menu-title" data-i18n="nav.dash.main"> الماركات التجارية  </span>
                     <span
@@ -70,7 +70,7 @@
                     </li>
                 </ul>
             </li>
-            @endcan
+            <!-- @endcan -->
 
 
             <li class="nav-item"><a href=""><i class="la la-group"></i>
