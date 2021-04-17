@@ -20,7 +20,8 @@ Route::group([
     'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']
 ], function () {
 
-    Route::group(['namespace' => 'Dashboard', 'middleware' => 'auth:admin', 'prefix' => 'admin'], function () {
+    Route::group(['namespace' => 'Dashboard', 'middleware' => 'auth:admin', 'prefix' => 'admin'], function ()
+    {
 
         Route::get('/', 'DashboardController@index')->name('admin.dashboard');  // the first page admin visits if authenticated
         Route::get('logout', 'LoginController@logout')->name('admin.logout');
@@ -31,6 +32,11 @@ Route::group([
         });
 
     
+        Route::group(['prefix' => 'profile'], function () {
+            Route::get('edit', 'ProfileController@editProfile')->name('edit.profile');
+            Route::put('update', 'ProfileController@updateprofile')->name('update.profile');
+        });
+
     });
 
     Route::group(['namespace' => 'Dashboard', 'middleware' => 'guest:admin', 'prefix' => 'admin'], function () {
