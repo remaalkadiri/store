@@ -10,7 +10,7 @@
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="">الرئيسية </a>
                             </li>
-                            <li class="breadcrumb-item"><a href="{{route('admin.maincategories')}}"> الاقسام
+                            <li class="breadcrumb-item"><a href="{{route('admin.categories')}}"> الاقسام
                                     الرئيسية </a>
                             </li>
                             <li class="breadcrumb-item active"> أضافه قسم رئيسي
@@ -44,7 +44,7 @@
                             <div class="card-content collapse show">
                                 <div class="card-body">
                                     <form class="form"
-                                            action="{{route('admin.maincategories.store')}}"
+                                            action="{{route('admin.categories.store')}}"
                                             method="POST"
                                             enctype="multipart/form-data">
                                         @csrf
@@ -84,7 +84,7 @@
                                                     <div class="form-group">
                                                         <label for="projectinput1"> اسم بالرابط
                                                         </label>
-                                                        <input type="text" id="name"
+                                                        <input type="text" id="slug"
                                                                 class="form-control"
                                                                 placeholder="  "
                                                                 value="{{old('slug')}}"
