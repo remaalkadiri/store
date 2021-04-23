@@ -69,6 +69,15 @@ Route::group([
         });
         ################################## end brands    ##########################################
 
+        ################################## products routes ########################################
+        Route::group(['prefix' => 'products'], function () {
+            Route::get('/', 'ProductsController@index')->name('admin.products');
+            Route::get('general-information', 'ProductsController@create')->name('admin.products.general.create');
+            Route::post('store-general-information', 'ProductsController@store')->name('admin.products.general.store');
+
+        });
+        ################################## end brands    #########################################
+
     });
 
     Route::group(['namespace' => 'Dashboard', 'middleware' => 'guest:admin', 'prefix' => 'admin'], function () {
